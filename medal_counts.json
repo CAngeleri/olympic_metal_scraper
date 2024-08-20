@@ -1,0 +1,72 @@
+[
+    {
+        "Country": "Afghanistan",
+        "Total Medals": "2",
+        "Gold Medals": "16",
+        "Silver Medals": "0",
+        "Bronze Medals": "0"
+    },
+    {
+        "Country": "Albania",
+        "Total Medals": "2",
+        "Gold Medals": "15",
+        "Silver Medals": "0",
+        "Bronze Medals": "0"
+    },
+    {
+        "Country": "Algeria",
+        "Total Medals": "20",
+        "Gold Medals": "18",
+        "Silver Medals": "7",
+        "Bronze Medals": "4"
+    },
+    {
+        "Country": "Argentina",
+        "Total Medals": "80",
+        "Gold Medals": "46",
+        "Silver Medals": "22",
+        "Bronze Medals": "27"
+    },
+    {
+        "Country": "Armenia",
+        "Total Medals": "22",
+        "Gold Medals": "16",
+        "Silver Medals": "2",
+        "Bronze Medals": "11"
+    },
+    {
+        "Country": "Australasia",
+        "Total Medals": "12",
+        "Gold Medals": "2",
+        "Silver Medals": "3",
+        "Bronze Medals": "4"
+    },
+    {
+        "Country": "Australia",
+        "Total Medals": "619",
+        "Gold Medals": "48",
+        "Silver Medals": "188",
+        "Bronze Medals": "199"
+    },
+    {
+        "Country": "Austria",
+        "Total Medals": "351",
+        "Gold Medals": "53",
+        "Silver Medals": "93",
+        "Bronze Medals": "123"
+    },
+    {
+        "Country": "Azerbaijan",
+        "Total Medals": "56",
+        "Gold Medals": "15",
+        "Silver Medals": "9",
+        "Bronze Medals": "16"
+    },
+    {
+        "Country": "Bahamas",
+        "Total Medals": "16",
+        "Gold Medals": "18",
+        "Silver Medals": "8",
+        "Bronze Medals": "2"
+    }
+]
