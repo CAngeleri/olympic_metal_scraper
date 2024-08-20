@@ -21,10 +21,14 @@ bash
 pip install requests beautifulsoup4
 
 ## Script Details
-URL: The Wikipedia page URL is https://en.wikipedia.org/wiki/All-time_Olympic_Games_medal_table.
+URL: The Wikipedia page URL is https://en.wikipedia.org/wiki/All-time_Olympic_Games_medal_table. 
+</br>
 Table Extraction: The script locates the table with the class wikitable.
+</br>
 Data Extraction: The script extracts country names, gold, silver, bronze, and total medal counts.
+</br>
 Output: The data for the top 10 countries is saved in a file named medal_counts.json.
+</br>
 Running the Script
 Save the script to a file, e.g., scraper.py.
 
