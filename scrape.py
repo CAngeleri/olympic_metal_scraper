@@ -48,7 +48,7 @@ for i, row in enumerate(rows):
 # Keep only the first 10 countries - for officiant/faster testing
 medal_data = medal_data[:10]
 
-# Save the data to a JSON file - Parameters - 'file name', action type w for write
+# Save the data to a JSON file - Parameters - 'file name','action type' w for write
 with open('medal_counts.json', 'w') as f:
     json.dump(medal_data, f, indent=2)
 
