@@ -33,9 +33,8 @@ Running the Script
 Save the script to a file, e.g., scraper.py.
 
 ## Run the script using Python:
-
 bash
-Copy code
+
 python scraper.py
 The JSON file medal_counts.json will be created in the same directory as the script.
 
@@ -43,17 +42,23 @@ The JSON file medal_counts.json will be created in the same directory as the scr
 The output JSON file will contain an array of objects with the following structure:
 
 json
-Copy code
 [
     {
+        </br>
         "Country": "Country Name",
+        </br>
         "Total Medals": "Total Number",
+        </br>
         "Gold Medals": "Number",
+        </br>
         "Silver Medals": "Number",
+        </br>
         "Bronze Medals": "Number"
+        </br>
     },
     ...
 ]
+</br>
 Each object represents a country and its medal counts.
 
 ## Notes
