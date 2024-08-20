@@ -29,13 +29,11 @@ for i, row in enumerate(rows):
     if len(cols) < 4:
         continue
 
-    # Extract country and medal counts
+    # Extract data from table - country and medal counts
     country = cols[0].a.text.strip()
     gold = cols[11].text.strip()
     silver = cols[12].text.strip()
     bronze = cols[13].text.strip()
-
-    # Clean the medal counts
     total_medals = cols[15].text.strip()
 
     # Append data to the list
@@ -47,11 +45,11 @@ for i, row in enumerate(rows):
         'Bronze Medals' : bronze,
     })
 
-# Keep only the first 10 countries
+# Keep only the first 10 countries - for officiant/faster testing
 medal_data = medal_data[:10]
 
-# Save the data to a JSON file
+# Save the data to a JSON file - Parameters - 'file name', action type w for write
 with open('medal_counts.json', 'w') as f:
-    json.dump(medal_data, f, indent=4)
+    json.dump(medal_data, f, indent=2)
 
 print("Data saved to medal_counts.json")
