@@ -52,4 +52,4 @@ medal_data = medal_data[:10]
 with open('medal_counts.json', 'w') as f:
     json.dump(medal_data, f, indent=2)
 
-print("Data saved to medal_counts.json")
+print("Data saved to medal_counts.json 🎖️")
